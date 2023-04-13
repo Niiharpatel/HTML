@@ -1,3 +1,3 @@
 # Welcome to HTML
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_Zqkn_CXhG5UhQUpaOIe0gqJH8pnPtVP-A&usqp=CAU)
+![](https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.png)
