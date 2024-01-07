@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("Images/bg.jpg");
+  height: 100vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+}
+
+.main .box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.69;
+  top: 0;
+  background-color: black;
+  position: absolute;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 60vw;
+  margin: auto;
+  height: 92px;
+}
+
+nav img {
+  color: red;
+  width: 148px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.nav-btn {
+  display: flex;
+  gap: 15px;
+}
+
+.hero {
+  height: calc(100% - 92px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0px 29px;
+}
+
+.hero > :nth-child(1) {
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.separation {
+  height: 7px;
+  background-color: rgb(61, 57, 57);
+}
+
+.btn {
+  padding: 3px 8px;
+  background-color: rgba(110, 105, 105, 0.227);
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  border: 0.5px solid gray;
+  border-radius: 3px;
+  padding: 7px 17px;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 18px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.main input {
+  padding: 18px 145px 18px 18px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgba(27, 21, 21, 0.573);
+  color: white;
+  border: 0.5px solid gray;
+}
+
+.main input::placeholder {
+  color: rgb(203, 195, 195);
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  margin-top: 7px;
+}
+
+@media screen and (max-width: 1200px) {
+  .first {
+    flex-wrap: wrap;
+  }
+}
+
+.secimg {
+  position: relative;
+}
+
+.secimg img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+
+.secimg video {
+  position: absolute;
+  right: 0;
+  height: 370px;
+  width: 398px;
+}
+
+section.first > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 34px 0;
+}
+
+.first > div :first-child {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.first > div :nth-child(2) {
+  font-size: 24px;
+}
+
+.feg {
+  text-align: center;
+  color: white;
+  padding: 34px;
+  font-size: 24px;
+}
+
+.feg h2 {
+  font-size: 48px;
+}
+.fag-box {
+  background-color: #2d2d2d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 24px;
+  max-width: 60vw;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+
+.fag-box:hover {
+  background-color: rgb(78, 72, 72);
+}
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 14px;
+}
+
+footer .que {
+  padding: 34px 0;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.footer a {
+  color: white;
+  font-size: 14px;
+}

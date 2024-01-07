@@ -1,0 +1,109 @@
+
+.container{
+    width:  97%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.header_sec {
+    padding: 38px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: white;
+  }
+  
+  .header_robotics_blog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  BODY {
+    padding-top: 120px;
+  }
+
+  .header_robotics_blog .robotics_logo {
+    flex: 0.4;
+    line-height: 0;
+  }
+
+  .header_robotics_blog .robotics_item {
+    flex: 0.8;
+  }
+
+  .header_robotics_blog .robotics_item .link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+  }
+
+  .header_robotics_blog .robotics_item .link .nav_link .link_item {
+    font-size: 11px;
+    color: #1c110a;
+    text-align: left;
+    word-spacing: 0.3rem;
+    font-weight: bold;
+    outline: none;
+    font-family: inherit;
+    letter-spacing: 1px;
+  }
+
+  .header_robotics_blog .robotics_item .link .nav_link {
+    position: relative;
+  }
+
+  .header_robotics_blog .robotics_item .link .nav_link i {
+    position: absolute;
+    top: 4px;
+    right: -15px;
+    font-size: 6px;
+    background-color: rgb(214, 212, 212);
+    color: #000;
+    padding: 2px 1.5px;
+  }
+
+  .header_robotics_blog .robotics_bttn {
+    position: relative;
+  }
+
+  .header_robotics_blog .robotics_bttn .btn a {
+    border: 3px solid black;
+    color: #000;
+    font-style: none;
+    padding: 9px 64px 9px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.7px;
+  }
+
+  .header_robotics_blog .robotics_bttn .btn i {
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    border: 3px solid black;
+    background-color: #f25c07;
+    color: #000;
+    font-size: 25px;
+    height: 100%;
+    width: 50px;
+    transition: 0.3s all ease;
+  }
+
+  .header_robotics_blog .robotics_bttn .btn i:hover {
+    background-color: brown;
+    color: black;
+  }
