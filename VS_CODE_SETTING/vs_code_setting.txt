@@ -1,0 +1,99 @@
+{
+  "editor.minimap.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "background.fullscreen": {
+    "images": ["file:///C:/Users/DELL/Downloads/Goku2.png"],
+    "opacity": 0.92,
+    "size": "520px",
+    "position": "right",
+    "interval": 0
+  },
+  "editor.mouseWheelZoom": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.guides.bracketPairs": "active",
+  "editor.renderLineHighlight": "none",
+  "editor.wordWrap": "on",
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "workbench.iconTheme": "material-icon-theme",
+  "turboConsoleLog.delimiterInsideMessage": "",
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.logMessagePrefix": "",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "editor.lineHeight": 1.4,
+  "editor.fontFamily": "MonoLisa,Martian Mono,'Courier New', monospace",
+  "css.lint.unknownAtRules": "ignore",
+  "git.confirmSync": false,
+  "material-icon-theme.folders.associations": {},
+  "cmake.options.advanced": {
+    "build": {
+      "statusBarVisibility": "visible"
+    },
+    "launch": {
+      "statusBarVisibility": "visible"
+    },
+    "debug": {
+      "statusBarVisibility": "visible"
+    }
+  },
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "emmet.preferences": {},
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "terminal.integrated.fontSize": 16,
+  "editor.fontSize": 16,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.lineHeight": 1.4,
+  "terminal.integrated.fontFamily": "MonoLisa",
+  "terminal.integrated.cursorBlinking": true,
+  // "terminal.integrated.tabs.separator": "${sequence}",
+
+  "workbench.colorCustomizations": {
+    "[Darker than One Dark Pro (Dark Editor)]": {
+      "editor.background": "#1f1f24",
+      // "editorGutter.background": "#1d1c1d",
+      "sideBar.background": "#1a1a1b",
+      "activityBar.background": "#1f1f24",
+      "statusBar.background": "#262525",
+      // "editor.selectionBackground": "#222",
+      "tab.activeBackground": "#171616",
+      "tab.inactiveBackground": "#1f1f24"
+    }
+    // "terminal.foreground": "#0be960cc",
+    // "terminalCursor.foreground": "#00ffaa"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+
+  // other settings
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "code-runner.runInTerminal": true,
+  "prettier.singleQuote": true,
+  "codesnap.backgroundColor": "#6A0DAD",
+  "codesnap.containerPadding": "2em"
+}

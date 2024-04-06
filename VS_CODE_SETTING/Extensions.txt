@@ -1,0 +1,66 @@
+
+1. Auto Rename Tag
+
+2. background
+
+3. Better Comments
+
+4. Bracket Pair Colorization Toggler
+
+5. C compiler
+
+6. Change Case
+ 
+7. Code Runner
+
+8. Darker than One Dark Pro
+
+9. ES7+ React/Redux/React-Native/JS snippets
+
+10. HTML CSS Support
+
+11. HTML to CSS autocompletion
+
+12. Image Preview
+
+13. IntelliSense for CSS class names in HTML
+
+14. JavaScript (ES6) code snippets
+
+15. Live Preview
+
+16. Live Server
+
+17. Material Icon Theme
+
+18. npm Intellisense
+
+19. One Dark Pro (binaryify)
+
+20. Path Intellisense
+
+21. CodeSnap
+
+22. Prettier Code formatter
+
+23. Reactjs code snippets
+
+24. Run Terminal Command
+
+25. Simple React Snippets 52
+
+26. Turbo Console Log
+
+27. Typescript React code snippets 56
+
+28. C/C++
+
+29. C/C++ Extension Pack
+
+30. CMake
+
+31. CMake Tools
+
+32. Error Lens
+
+33. Tailwind CSS IntelliSense
